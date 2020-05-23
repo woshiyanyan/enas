@@ -9,7 +9,11 @@ Paper: https://arxiv.org/abs/1802.03268
 Authors: Hieu Pham*, Melody Y. Guan*, Barret Zoph, Quoc V. Le, Jeff Dean
 
 _This is not an official Google product._
-
+## Prerequisites
+Python 2.7
+tensorflow-gpu 1.4
+cuda 8.0
+cuDNN 6
 ## Penn Treebank
 
 **IMPORTANT ERRATA**: The implementation of Language Model on this repository is wrong. Please do not use it. The correct implementation is at the [new repository](https://github.com/google-research/google-research/tree/master/enas_lm). We apologize for the inconvenience.
