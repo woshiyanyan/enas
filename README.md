@@ -11,8 +11,11 @@ Authors: Hieu Pham*, Melody Y. Guan*, Barret Zoph, Quoc V. Le, Jeff Dean
 _This is not an official Google product._
 ## Prerequisites
 Python 2.7
+
 tensorflow-gpu 1.4
+
 cuda 8.0
+
 cuDNN 6
 ## Penn Treebank
 
