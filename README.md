@@ -27,8 +27,8 @@ To run the experiments on CIFAR-10, please first download the [dataset](https://
 
 To run the ENAS experiments on the _macro search space_ as described in our paper, please use the following scripts:
 ```
-CUDA_VISIBLE_DEVICES=x,x,x ./scripts/cifar10_macro_search.sh
-CUDA_VISIBLE_DEVICES=x,x,x ./scripts/cifar10_macro_final.sh
+CUDA_VISIBLE_DEVICES=x ./scripts/cifar10_macro_search.sh
+CUDA_VISIBLE_DEVICES=x ./scripts/cifar10_macro_final.sh
 ```
 
 A macro architecture for a neural network with `N` layers consists of `N` parts, indexed by `1, 2, 3, ..., N`. Part `i` consists of:
@@ -40,8 +40,8 @@ A concrete example can be found in our script `./scripts/cifar10_macro_final.sh`
 
 To run the ENAS experiments on the _micro search space_ as described in our paper, please use the following scripts:
 ```
-CUDA_VISIBLE_DEVICES=x,x,x ./scripts/cifar10_micro_search.sh
-CUDA_VISIBLE_DEVICES=x,x,x ./scripts/cifar10_micro_final.sh
+CUDA_VISIBLE_DEVICES=x ./scripts/cifar10_micro_search.sh
+CUDA_VISIBLE_DEVICES=x ./scripts/cifar10_micro_final.sh
 ```
 
 A micro cell with `B + 2` blocks can be specified using `B` blocks, corresponding to blocks numbered `2, 3, ..., B+1`, each block consists of `4` numbers
